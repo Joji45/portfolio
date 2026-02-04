@@ -1,0 +1,44 @@
+name: flutter_application_1
+description: "A new Flutter project."
+publish_to: none
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.4 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  url_launcher: ^6.3.1
+  animated_text_kit: ^4.3.0
+  font_awesome_flutter: ^9.2.0
+  html: ^0.15.6
+  http: ^1.6.0
+  path_provider: ^2.1.5
+  flutter_pdfview: ^1.4.3
+  syncfusion_flutter_pdfviewer: ^32.1.21
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/dp.jpg
+    - assets/images/fb_home.png
+    - assets/images/fb_chat.png
+    - assets/images/fb_reels.png
+    - assets/images/fb_start.png
+    - assets/images/fb_friens.png
+    - assets/images/st1.png
+    - assets/images/st2.png
+    - assets/images/st3.png
+    - assets/images/st4.png
+    - assets/images/st5.png
+    - assets/images/st6.png
+    - assets/images/comming.png
+    - assets/images/Joji_Shaji_Resume.pdf
